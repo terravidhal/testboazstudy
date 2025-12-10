@@ -1,4 +1,3 @@
-...existing code...
 # Boaz Study – Frontend Test
 
 Mini application React + TypeScript fournie pour prototyper des pages de services étudiants (attestations, preuves de versement, wallet, etc.). Le backend est mocké pour développer l'UI indépendamment d'une API réelle.
