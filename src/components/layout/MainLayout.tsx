@@ -26,6 +26,9 @@ export default function MainLayout({ children }: MainLayoutProps) {
             <Link to="/home" className="hover:underline">
               Accueil
             </Link>
+            <Link to="/avi" className="hover:underline">
+              Dashboard
+            </Link>
             <Link to="/home/attestation" className="hover:underline">
               Attestation
             </Link>

@@ -28,6 +28,9 @@ export default function HomePage() {
               <Button asChild className="bg-[#0140ff] hover:bg-[#0133d1] text-white rounded-[12px] px-6">
                 <Link to="/home/attestation">Demander une attestation</Link>
               </Button>
+              <Button asChild className="bg-[#0140ff] hover:bg-[#0133d1] text-white rounded-[12px] px-6">
+                <Link to="/avi">Dashboard</Link>
+              </Button>
               <Button variant="outline" className="border-[#d7d7d7] text-[#0140ff] hover:bg-[#f5f6fa] rounded-[12px] px-6">
                 <Link to="/home">Explorer les services</Link>
               </Button>
