@@ -19,16 +19,15 @@ export default function AppRouter() {
       <Route path="/login" element={<LoginPage />} />
       <Route path="/register" element={<RegisterPage />} />
       <Route path="/avi" element={<AVI />} />
-      <Route path="/home" element={<HomePage />} />
-      
-      {/*<Route
+   
+      <Route
         path="/home"
         element={
           <ProtectedRoute>
             <HomePage />
           </ProtectedRoute>
         }
-      />*/}
+      />
       <Route
         path="/home/attestation"
         element={
